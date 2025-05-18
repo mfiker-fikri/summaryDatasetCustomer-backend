@@ -1,0 +1,25 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Customer API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/customers": {
+      "get": {
+        "summary": "Get all customers",
+        "responses": {
+          "200": { "description": "Successful response" }
+        }
+      }
+    },
+    "/api/customers/summary": {
+      "get": {
+        "summary": "Get summary data for dashboard",
+        "responses": {
+          "200": { "description": "Summary data returned" }
+        }
+      }
+    }
+  }
+}
